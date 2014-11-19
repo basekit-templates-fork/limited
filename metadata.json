@@ -1,7 +1,7 @@
 {
-    "name": "GG Lawyers",
-    "thumbnail": "gg-lawyers.png",
-    "screenshot":"gg-lawyers.png",
+    "name": "Limited",
+    "thumbnail": "limited.png",
+    "screenshot":"limited.png",
     "templateType":"standard",
     "images":["/images/feature-bg.jpg"],
     "pageTypes":["home"],

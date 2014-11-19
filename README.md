@@ -1,6 +1,6 @@
 Copyright 2014 BaseKit Platform Ltd
 
-GG Lawyers 
+Limited
 ==========
 
-BaseKit Baseplate Template
+BaseKit Standard Theme
