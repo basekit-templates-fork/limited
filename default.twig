@@ -10,7 +10,7 @@
 				{{widget('companyname', 'homepage-companyname', {"business": "profile"})|raw}}
 			</div>
 			<div class="header-phone">
-				{% if profile.phone|length > 0 %}  
+				{% if profile.phone|length > 0 %}
                    {{widget('clicktocall', 'headerclicktocall', {})|raw}}
                 {% endif %}
 			</div>
@@ -19,9 +19,7 @@
 	</header>
 	<div class="page-title">
 		<div class="wrapper">
-			<h1>
-				<span>{{ page.title }}</span>
-			</h1>
+			{{widget('pagetitle', 'title', {})|raw}}
 		</div>
 	</div>
 
