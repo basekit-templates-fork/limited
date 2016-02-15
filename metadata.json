@@ -3,6 +3,7 @@
     "thumbnail": "limited.png",
     "screenshot":"limited.png",
     "templateType":"standard",
+    "tags": { "en": ["minimal", "modern", "light", "restaurant", "classic"] },
     "images":["/images/feature-bg.jpg"],
     "pageTypes":["home"],
     "colorSwatches":
