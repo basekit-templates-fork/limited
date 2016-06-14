@@ -1,7 +1,7 @@
 {
     "name": "Limited",
     "thumbnail": "limited.png",
-    "screenshot":"limited.png",
+    "screenshot":"limited-screenshot.jpg",
     "templateType":"standard",
     "tags": { "en": ["minimal", "modern", "light", "restaurant", "classic"] },
     "images":["/images/feature-bg.jpg"],
