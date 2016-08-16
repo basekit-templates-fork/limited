@@ -137,6 +137,7 @@
     width: auto;
     max-width: 76%;
     @media @tablet {
+    	padding-right: 45px;
         width: 100%;
         max-width: 100%;
     }
@@ -216,6 +217,7 @@
     clear: both;
     @media @tablet {
         padding-top: 0;
+        position: static;
         margin: 0 auto;
     }
     ul {
@@ -304,8 +306,9 @@
                 height: 2px;
                 width: 23px;
             }
-            @media @mobile {
-                top: -47px;
+            @media @tablet {
+            	right: 35px;
+                top: 2em;
             }
             &:hover {
                 background-color: @font-swatch7-background-color-hover;
