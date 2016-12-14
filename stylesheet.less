@@ -381,6 +381,7 @@ button.btn,
 .widget.profile form button, 
 .signupform fieldset button, 
 .contactform button.btn, 
+.advancedcontactform fieldset button,
 .blogsearch form button, 
 .checkout-order-button, 
 .checkout-empty-link,
@@ -420,6 +421,10 @@ a.basket-summary-empty-cta.btn,
         .border-radius(3px);
     }
 } 
+
+.advancedcontactform fieldset button {
+    margin-top: 20px;
+}
 
 // Click to call
 
@@ -529,8 +534,17 @@ a.basket-summary-empty-cta.btn,
 // Forms
 // -----------------------------
 
-label, .contactform label, .signupform fieldset label {
+label, .contactform label, .signupform fieldset label,
+.advancedcontactform .form-group>label {
     display: block;
+    font-family: @font-swatch2-font-family;
+    color: @font-swatch2-color;
+    font-size: @font-swatch5-font-size;
+    font-weight: @font-swatch5-font-weight;
+    line-height: @font-swatch5-line-height;
+}
+
+.advancedcontactform .option-list .option-item .label {
     font-family: @font-swatch2-font-family;
     color: @font-swatch2-color;
     font-size: @font-swatch5-font-size;
@@ -559,6 +573,10 @@ input, input[type='text'], input[type=email], textarea, select, .signupform fiel
         outline: none;
         border: 2px solid @color-swatch3;
     }
+}
+
+.advancedcontactform .option-list {
+    padding: 1em 0;
 }
 
 .blogsearch form input, .blogsearch form input[type='text'] {
