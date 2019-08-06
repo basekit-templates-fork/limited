@@ -1,5 +1,6 @@
 {
     "name": "Limited",
+    "versionTenCompatible": 1,
     "thumbnail": "limited.png",
     "screenshot":"limited-screenshot.jpg",
     "templateType":"standard",
